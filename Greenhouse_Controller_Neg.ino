@@ -1,13 +1,13 @@
-/*Project_Weather_Station_Controller
-Program has the following function:
+/*Greenhouse_Controller.ino
+Program has the following functions:
 Reads a DHT11 Temperature and Humidity sensor on Digital Pin 2,
-Display the values on a OLED Display throught the I2C bus. 
+Display the values on an OLED Display through the I2C bus. 
 Relay attached to Digital pin 3.
-Any temperature reading over 82 degress will enable a negative output on digital pin 3 that will engage the realy.
+Any temperature reading over 82 degrees will enable a negative output on digital pin 3 that will activate the relay.
 The Relay will enable the AC power to engage fan motor.  
-Written by Rusty Cain Jan 27 2016 Updated Sept 12, 2018
-This program is just a simple example and is not a perfect example of how to do this.
-Please use and modify and let me know of any improvements*/
+Written by Rusty Cain Jan 27 2016. Updated Sept 12, 2018
+This program is a simple example. Any suggestions for improvements are greatly appreciated.
+Please use and modify as appropriate.  */
 
 #include <Wire.h>                            // Enables I2C for OLED 
 #include "DHT.h"                             // DHT library
