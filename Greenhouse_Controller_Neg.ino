@@ -5,7 +5,7 @@ Display the values on an OLED Display through the I2C bus.
 Relay attached to Digital pin 3.
 Any temperature reading over 82 degrees will enable a negative output on digital pin 3 that will activate the relay.
 The Relay will enable the AC power to engage fan motor.  
-Written by Rusty Cain Jan 27 2016. Updated Sept 12, 2018
+Written by Rusty Cain Jan 27 2016. Updated Sept 12, 2018 Tested July 2, 2020 by Rusprodev
 This program is a simple example. Any suggestions for improvements are greatly appreciated.
 Please use and modify as appropriate.  */
 
